@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,28 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Resume</title>
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
     <header style="border: 10px 10px 10px white;">
-            
-<img src="prof3.jpg" style="width:135px; height:140px; border-radius:100px;">
-    
-    <h1>Tasbih Mahjabin</h1>
-        
-        <p>Young Developer | Enthusiastic Problem Solver | Tech Enthusiast</p>
+
+        <img src="prof3.jpg" style="width:135px; height:140px; border-radius:100px;">
+
+        <h1>Tasbih Mahjabin</h1>
+
+        <p>Young Developer | Interested in Coding</p>
     </header>
 
     <div class="container">
         <div class="section">
             <h2>About Me</h2>
-            <p>Hi! I'm a 15-year-old student in 8th grade from Finland with a big dream of becoming a software engineer. Passionate
-            about technology and problem-solving, I spend my free time exploring coding, learning about software development, and
-            experimenting with new ideas. I'm curious, determined, and always excited to dive into challenges that help me grow my
-            skills. With a vision to innovate and create impactful solutions in the tech world, I'm on a journey to turn my
-            aspirations into reality.</p>
+            <p>Hi! I'm a 15-year-old student in 8th grade from Finland with a big dream of becoming a software engineer.
+                Passionate
+                about technology and problem-solving, I spend my free time exploring coding, learning about software
+                development, and
+                experimenting with new ideas. I'm curious, determined, and always excited to dive into challenges that
+                help me grow my
+                skills. With a vision to innovate and create impactful solutions in the tech world, I'm on a journey to
+                turn my
+                aspirations into reality.</p>
         </div>
 
         <div class="section">
@@ -35,7 +41,8 @@
             <ul>
                 <li>
                     <strong>Retail Trainee</strong> - K-supermarket Duo (03.06.24 - 14.06.24)
-                    <p>My job was customer service, receiving and shelving goods, and maintaining the shop's condition.</p>
+                    <p>My job was customer service, receiving and shelving goods, and maintaining the shop's condition.
+                    </p>
                 </li>
                 <li>
                     <strong>Daycare Assistant Trainee</strong> - Kissanmaan päiväkoti (19.05.25 - 21.05.25)
@@ -67,16 +74,49 @@
         </div>
 
         <div class="section contact">
-            <button onclick="showAlert('Email: john.doe@example.com')">Contact Me</button>
-            <button onclick="showAlert('Phone: +123 456 7890')">Call Me</button>
+            <button onclick="showAlert('Email: tasbihmahjabin2010@gmail.com')">Contact Me</button>
+            <!--<button onclick="showAlert('Phone: +358449689541')">Call Me</button>!-->
             <button onclick="toggleTheme()">Toggle Theme</button>
         </div>
+        <div id="sm">
+            <h3 id="sm1">Social Media</h3><br>
+            <a href="https://www.linkedin.com/feed/" target="_blank" class="linkedin-button">
+                <button
+                    style="background-color: #0A66C2; color: white; border: 0; border-radius: 5px; height: 40px; width: 100px; font-size: 18px; margin-right: 60px;"
+                    class="fa fa-linkedin"></i> LinkedIn</button>
+            </a>
+            <a href="https://github.com/mahjabin2024" target="_blank" class="gitHub-button">
+                <button
+                    style="background-color: white; color: black; border:1px solid black; border-radius: 5px; height: 40px; width:100px; font-size: 18px; margin-right: 60px;"><i
+                        class="fa fa-github icon" id="giticon"></i>
+                    GitHub</button>
+            </a>
+            <a href="https://www.facebook.com/tasbihmahjabin.adhora" target="_blank" class="linkedin-button">
+                <button
+                    style="background-color: #0866FF; color: white; border: 0; border-radius: 5px; height: 40px; width: 100px; font-size: 18px; margin-right: 60px;"
+                    class="fa fa-facebook"></i> Facebook</button>
+            </a>
+            <a href="https://www.instagram.com/tasbihmahjabin10/profilecard/?igsh=MXdyb2ttdzd3ZWFscA==" target="_blank"
+                class="linkedin-button">
+                <button
+                    style="background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4); color: white; border: 0; border-radius: 5px; height: 40px; width: 110px; font-size: 18px; margin-right: 60px;"
+                    class="fa fa-instagram"></i> Instagram</button>
+            </a>
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank" class="linkedin-button">
+                <button
+                    style="background-color: white; color: red; border:1px solid; border-radius: 5px; height: 40px; width: 100px; font-size: 18px; margin-right: 60px;">&#9993;Email</button>
+            </a>
+            <button onclick="showAlert('Phone: +358449689541')"
+                style="background-color: white; color: #25D366; border:1px solid; border-radius: 5px; height: 40px; width: 112px; font-size: 18px; margin-right: 12px;"><i
+                    class="fa fa-whatsapp"></i>WhatsApp</button>
+        </div>
     </div>
-<br>
-<footer>
-    &copy; 2024 Tasbih Mahjabin. All Rights Reserved.
-</footer>
+    <br>
+    <footer>
+        &copy; 2024 Tasbih Mahjabin | <b>All Rights Reserved.</b>
+    </footer>
 
 </body>
 <script src="script.js"></script>
+
 </html>
